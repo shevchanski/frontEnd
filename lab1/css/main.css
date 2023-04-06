@@ -1,4 +1,7 @@
-.container {
+@import "reset.css";
+@import "fonts.css";
+
+/* .container {
 	max-width: 1230px;
 	margin: 0 auto;
 }
@@ -28,4 +31,4 @@
 
 .footer .info {
 	display: flex;
-}
+} */
