@@ -1,0 +1,26 @@
+.stack-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	/* height: 330px; */
+}
+.stack-list .item {
+	box-sizing: content-box;
+	/* padding-right: 100px; */
+	flex-grow: 0;
+	flex-shrink: 1;
+	min-width: 200px;
+	height: 120px;
+	flex-basis: calc(100%/6);
+	text-align: center;
+	/* align-self: flex-end; */
+	margin-top: 70px;
+}
+.stack-list .item:last-child {
+	margin-right: 0;
+	/* margin-top: 70px; */
+}
+.stack-list .item .img {
+	width: 120px;
+	height: 120px;
+}

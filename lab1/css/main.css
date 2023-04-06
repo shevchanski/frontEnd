@@ -1,5 +1,7 @@
 @import "reset.css";
 @import "fonts.css";
+@import "common.css";
+@import "./components/main.css";
 
 /* .container {
 	max-width: 1230px;
