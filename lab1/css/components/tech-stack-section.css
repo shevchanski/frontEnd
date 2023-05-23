@@ -1,0 +1,14 @@
+.tech-stack-section {
+	margin-top: 140px;
+}
+.tech-stack-section.section .title {
+	text-align: left;
+	margin-bottom: 30px;
+	padding-left: 0;
+}
+
+.tech-stack-section.section .subtitle {
+	text-align: left;
+	margin-bottom: 100px;
+	padding-left: 0;
+}
