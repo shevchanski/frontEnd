@@ -16,3 +16,7 @@
 	padding-right: 10%;
 	text-align: center;
 }
+.section .title_align_left{
+	text-align: left;
+	padding: 0;
+}
