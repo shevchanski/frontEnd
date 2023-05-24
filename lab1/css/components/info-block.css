@@ -1,0 +1,30 @@
+.info-block {
+	width: 785px;
+	height: 75px;
+}
+.info-block:not(:last-child){
+	margin-bottom: 30px;
+}
+
+.info-block .inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.info-block .inner:last-child {
+	color: #A7A7A7;
+	font-size: 12px;
+	line-height: 28px;
+}
+.info-block .inner:last-child .img {
+	margin-right: 5px;
+	width: 18px;
+}
+
+.info-block .inner:nth-child(odd) {
+	margin-bottom: 4px;
+}
+
+.info-block .inner.flex-end{
+	justify-content: flex-end;
+}
