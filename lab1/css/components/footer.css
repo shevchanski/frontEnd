@@ -36,3 +36,31 @@
 .footer .line {
 	width: 96%;
 }
+
+@media screen and (max-width: 480px) {
+	.footer {
+		flex-direction: row;
+		margin-bottom: 40px;
+	}
+	.footer > .item {
+		flex-shrink: 1;
+		margin: 0;
+		height: 150px;
+		width: 50%;
+	}
+	.footer .item:first-of-type{
+		flex-direction: column-reverse;
+	}
+	.footer .nav .item{
+		margin-right: 0;
+		flex-basis: 100%;
+		text-align: center;
+	}
+	.footer .nav .list{
+		flex-wrap: wrap;
+		height: 100%;
+	}
+	.footer .line{
+		display: none;
+	}
+}

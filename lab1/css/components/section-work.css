@@ -1,3 +1,13 @@
 .work-experience-section.section{
 	margin-bottom: 35px;
 }
+
+
+@media screen and (max-width: 480px) {
+	.work-experience-section.section{
+		margin-bottom: 90px;
+	}
+	.work-experience-section.section .title{
+		margin-bottom: 50px;
+	}
+}

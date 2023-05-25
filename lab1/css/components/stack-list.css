@@ -7,7 +7,7 @@
 	box-sizing: content-box;
 	flex-grow: 0;
 	flex-shrink: 1;
-	min-width: 200px;
+	min-width: 150px;
 	height: 120px;
 	flex-basis: calc(100%/6);
 	text-align: center;
@@ -19,4 +19,20 @@
 .stack-list .item .img {
 	width: 120px;
 	height: 120px;
+}
+
+@media screen and (max-width: 1024px) {
+	.stack-list .item{
+		flex-basis: calc(100%/5);
+	}
+}
+@media screen and (max-width: 768px) {
+	.stack-list .item{
+		flex-basis: calc(100%/4);
+	}
+}
+@media screen and (max-width: 480px) {
+	.stack-list .item{
+		flex-basis: calc(100%/2);
+	}
 }

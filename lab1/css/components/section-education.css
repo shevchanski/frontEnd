@@ -1,0 +1,5 @@
+@media screen and (max-width: 480px) {
+	.education-section.section .title{
+		margin-bottom: 50px;
+	}
+}

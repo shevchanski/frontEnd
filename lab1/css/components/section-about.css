@@ -6,3 +6,13 @@
 .about-me-section .description{
  width: 785px;
 }
+
+@media screen and (max-width: 768px) {
+	.about-me-section.section .title{
+		width: 100%;
+	}
+	
+	.about-me-section .description{
+		width: 100%;
+	}
+}

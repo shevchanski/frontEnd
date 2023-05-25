@@ -12,3 +12,13 @@
 	margin-bottom: 100px;
 	padding-left: 0;
 }
+
+@media screen and (max-width: 768px){
+	.tech-stack-section.section .title, .tech-stack-section.section .subtitle{
+		text-align: center;
+		padding: 0 10%;
+	}
+	.tech-stack-section.section{
+		margin-bottom: 100px;
+	}
+}

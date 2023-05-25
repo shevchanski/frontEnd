@@ -9,3 +9,10 @@
 	color: #018C0F;
 	text-align: center;
 }
+
+@media screen and (max-width: 480px) {
+	.label-badge{
+		margin-top: 20px;
+		/* margin-left: 20px; */
+	}
+}

@@ -28,3 +28,42 @@
 .info-block .inner.flex-end{
 	justify-content: flex-end;
 }
+
+.info-block .company{
+	font-weight: 300;
+}
+.info-block .term {
+	font-weight: 500;
+}
+
+
+@media screen and (max-width: 786px){
+	.info-block{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.info-block{
+		display: flex;
+		height: auto;
+	}
+	.info-block:not(:last-child){
+		padding-bottom: 30px;
+		border-bottom: 1px solid #A7A7A7;
+	}
+	.info-block .inner{
+		flex-direction: column;
+		text-align: left;
+		flex-shrink: 1;
+		flex-grow: 1;
+		align-items: flex-start;
+	}
+	.info-block .inner:not(:last-child){
+		flex-basis:60%;
+	}
+
+	.info-block .company{
+		font-weight: 400;
+	}
+}
