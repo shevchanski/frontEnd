@@ -20,3 +20,8 @@
 		width: 100%;
 	}
 }
+@media screen and (max-width: 480px) {
+	.projects-section .inner{
+		justify-content: space-around;
+	}
+}

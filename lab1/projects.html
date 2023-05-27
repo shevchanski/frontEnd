@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="./css/main.css">
 	<script src="./js/main.js"></script>
 </head>
-<body>
+<body class="project-page">
 	<div class="container">
 		<header class="header">
 			<div class="overlay"></div>
@@ -36,10 +36,39 @@
 			</button>
 		</header>
 
+		<div class="page-content">
+			<div class="desc">
+				<h1 class="h1 title">Projects</h1>
+				<p class="subtitle">Things I've built so far</p>
+			</div>
+			<form class="js-filters filters">
+				<select name="technology" id="technology-selection" class="select">
+					<option value="">Technology</option>
+					<option value="react">React</option>
+					<option value="java-script">JavaScript</option>
+					<option value="html">HTML</option>
+					<option value="sass">SASS</option>
+				</select>
+				<select name="theme" id="theme-select" class="select">
+					<option value="">Theme</option>
+					<option value="landing">Landing</option>
+					<option value="ecommerce">E commerce</option>
+					<option value="blog">Blog</option>
+				</select>
+				<select name="platform" id="platform-select" class="select">
+					<option value="">Platform</option>
+					<option value="web">Web</option>
+					<option value="ios">IOS</option>
+					<option value="android">Android</option>
+				</select>
+				<a href="" class="btn-change-view"></a>
+			</form>
+			<section class="projects-section">
+				<div class="js-projects-container inner"></div>
+			</section>
+		</div>
 
-
-
-<footer class="footer">
+		<footer class="footer">
 			<div class="info item">
 				<a href="tel:+91 12345 09876">+91 12345 09876</a>
 				<a href="mailto:info@example.com">info@example.com</a>
@@ -61,7 +90,6 @@
 			</nav>
 		</footer>
 	</div>
-
-
+	<script src="./js/projects.js"></script>
 </body>
 </html>
