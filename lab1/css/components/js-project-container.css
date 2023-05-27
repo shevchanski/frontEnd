@@ -1,0 +1,16 @@
+/*  */
+.js-projects-container.horizontal .project-card{
+	flex-basis: 100%;
+	display: flex;
+}
+
+.js-projects-container.horizontal .project-card .img{
+	width: auto;
+}
+
+@media screen and (max-width: 480px){
+	.js-projects-container.horizontal .project-card, .project-card{
+		flex-basis: 80%;
+		display: block;
+	}
+}

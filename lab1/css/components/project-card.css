@@ -57,15 +57,7 @@ font-weight: 400;
 	margin-right: 10px;
 }
 
-/* for horizontal view */
-.project-card.horizontal{
-	flex-basis: 100%;
-	display: flex;
-}
 
-.project-card.horizontal .img{
-	width: auto;
-}
 
 
 @media screen and (max-width: 1024px) {
@@ -90,13 +82,6 @@ font-weight: 400;
 @media screen and (max-width: 768px){
 	.project-card{
 		flex-basis: 47%;
-		display: block;
-	}
-}
-
-@media screen and (max-width: 480px){
-	.project-card.horizontal, .project-card{
-		flex-basis: 80%;
 		display: block;
 	}
 }
